@@ -11,13 +11,13 @@ body {
   margin-bottom: 20px;
 }
 
-.header .title {
+.logo  {
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
-.header .title > span {
+.logo  > span {
   font-size: 24px;
   font-weight: bold;
   color: #fff;
@@ -97,3 +97,48 @@ body {
   display: flex;
   gap: 16px;
 }
+
+.partners{
+  display: flex;
+  gap: 24px;
+  color: white;
+  text-align: right;
+  justify-content: center;
+  margin-top: 64px;
+
+
+} 
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: white;
+} 
+
+hr{
+  width: 100%;
+} 
+
+.information {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+}  
+
+.information > div{     
+  display: flex;
+  flex-direction: column;
+
+}
+
+.information a {
+color: white;
+text-decoration: none;
+margin-bottom: 8px;
+}
+
+
+
